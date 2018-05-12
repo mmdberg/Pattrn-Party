@@ -38,25 +38,48 @@ h2 {
   font-size: 14px;
 }
 
+.accordian {
+  width: 600px;
+}
+
+.tabs {
+  width: 100%;
+  display: flex;
+}
+
 .tab {
-  border-color: transparent;
-  text-decoration: underline;
+  display: inline;
+  color: #666666;
+  padding: 5px 10px;
+  width: 200px;
 }
 
 .tab:focus {
   outline: none;
 }
 
+.current {
+  font-weight: 600;
+  border: 1px solid #666666;
+  border-bottom: none;
+}
+
 .sleep {
   text-decoration: none;
   background-color: #D1D2D3;
+  border-bottom: 1px #666666 solid; 
 }
 
 .hidden {
   display: none;
 }
 
-/*.show {
-  background-color: magenta;
-}*/
+.panels {
+  border: 1px solid #666666;
+  border-top: none;
+}
+
+.panel {
+  padding: 10px;
+}
 

@@ -1,6 +1,7 @@
 
 const changeTab = (event) => {
-  const newTab = event.target.closest('button')
+  console.log('hi');
+  const newTab = event.target.closest('.tab')
   const tabID = $(newTab).attr('id')
   if($(newTab).hasClass('sleep')) {
     const oldTab = $(newTab).siblings('.current')
