@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+header {
+  background-color: #2F2235;
+  height: 30px;
+  color: #F2F2F2;
+}
+
+.party {
+  color: #34D1D1;
+}
+
+h1, h2 {
+  font-weight: 300;
+  margin: 5px;
+}
+
+h1 {
+  float: left;
+  font-size: 16px;
+}
+
+h2 {
+  float: right;
+  font-size: 14px;
+}
+
+.section-header {
+  margin: 30px 20px;
+  font-size: 14px;
+}
+
+.tab {
+  border-color: transparent;
+  text-decoration: underline;
+}
+
+.tab:focus {
+  outline: none;
+}
+
+.sleep {
+  text-decoration: none;
+  background-color: #D1D2D3;
+}
+
+.hidden {
+  display: none;
+}
+
+/*.show {
+  background-color: magenta;
+}*/
+
