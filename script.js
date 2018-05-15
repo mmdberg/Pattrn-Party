@@ -1,6 +1,5 @@
 
 const changeTab = (event) => {
-  console.log('hi');
   const newTab = event.target.closest('.tab')
   const tabID = $(newTab).attr('id')
   if($(newTab).hasClass('sleep')) {

@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -64,7 +65,7 @@ h2 {
   width: 100%;
   display: inline;
   color: #666666;
-  padding: 5px 0;
+  padding: 12px 5px;
 }
 
 .tab:focus {
@@ -107,7 +108,7 @@ h2 {
 
 .view-code {
   background-color: #2F2235;
-  height: 30px;
+  height: 40px;
   width: 190px;
   text-align: center;
   margin: 40px auto;
@@ -119,7 +120,6 @@ h2 {
 .view-code a {
   text-decoration: none;
   color: #FFF;
-/*  margin: 10px 0;*/
 }
 
 @media screen and (max-width: 725px) {
@@ -130,6 +130,10 @@ h2 {
 
   .section-header {
     margin-bottom: 0;
+  }
+
+  .tab {
+    text-align: left;
   }
 
   .header-hr {
@@ -167,6 +171,21 @@ h2 {
     border: 1px #666666 solid;
     border-bottom: none;
     grid-column: 1 / 5;
+    padding: 5px;
+  }
+
+  .current {
+    background-image: url('./subtract.svg');
+    background-size: 5%; 
+    background-repeat: no-repeat;
+    background-position: 98%;
+  }
+
+  .sleep {
+    background-image: url('./add.svg');
+    background-size: 5%; 
+    background-repeat: no-repeat;
+    background-position: 98%;
   }
 
   .tab4,
@@ -176,10 +195,6 @@ h2 {
 
   .view-code {
     grid-row: 6 / 7;
-  }
-
-  .hide {
-
   }
 }
 
