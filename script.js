@@ -20,3 +20,14 @@ const changeTab = (event) => {
 }
 
 $('.accordian').click((event) => changeTab(event))
+
+const showDropDown = () => {
+  if($(window).width() <= 725) {
+    console.log('show dropdown')
+    $('.dropdown').toggleClass('closed');
+    $('.view-code3').toggleClass('move-down')
+  }
+}
+
+$('.bar').click(showDropDown)
+
